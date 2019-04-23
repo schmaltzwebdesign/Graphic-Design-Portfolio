@@ -1,0 +1,154 @@
+body, h1, h2, h3, h4, ul, li, a {
+	font-family: 'Open Sans', sans-serif;
+}
+.header h1 {
+	font-size: 1em;
+}
+.header a {}
+.header a:hover {
+	text-decoration: underline;
+}
+.header h1 {
+	font-size: 1.7em;
+}
+.header ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.title-bar, .top-bar {
+	display: inherit;
+}
+.top-bar {
+	background-color: #1971AA;
+}
+.top-bar ul {
+	background-color: #1971AA;
+}
+.title-bar {
+	background-color: #1971AA;
+}
+.mylargepage a {
+	color: #FFF;
+}
+.largetitle h1 {
+	font-size: 1.4em;
+	padding: 0;
+	margin: 0;
+}
+.top-bar ul li {
+	float: right;
+}
+.largetitle {
+	float: left;
+	max-width: 30%;
+}
+.mylargedropdown {
+	float: right;
+	max-width: 70%;
+}
+.themaincontent h1 {
+	font-size: 2em;
+}
+.sectioncolor-corey {
+	background: #11536D;
+	padding-top: 3em;
+	padding-bottom: 3em;
+	color: #FFF;
+}
+.sectioncolor-a {
+	background: #FFF;
+}
+.sectioncolor-b {
+	background: #FCFCFC;
+}
+.sectioncolor-a, .sectioncolor-b {
+	padding-top: 4em;
+	padding-bottom: 4em;
+}
+.sectiontitles h2 {
+	font-size: 1.4em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	margin: 0;
+}
+.sectiontitles {
+	background-color: #1971AA;
+	color: #FFF;
+}
+.footer {
+	text-align: right;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-right: 2em;
+	background-color: #1971AA;
+	color: #FFF;
+}
+.footer a {
+	color: #FFF;
+}
+@media only screen and (min-width: 639px) {
+	.mylargedropdown.dropdown.menu {
+		margin-top: 15px;
+	}
+	.menu a, .menu .button {
+		padding: 1em;
+	}
+	.largetitle {
+		float: left;
+		max-width: 30%;
+	}
+	.mylargedropdown {
+		float: right;
+		max-width: 70%;
+	}
+	.header img {
+		max-height: 60px;
+	}
+	.header {
+		height: 75px;
+	}
+}
+@media only screen and (max-width: 639px) {
+	.header {
+		height: 100px;
+	}
+	.header img {
+		max-height: 75px;
+	}
+	.title-bar-right {}
+	.top-bar-right {}
+	.mytitlesmall {
+		font-size: 1.2em;
+		float: left;
+	}
+	.mytitlesmall {}
+	.menu-icon {
+		padding: 1em;
+	}
+	.off-canvas {
+		background: #191919;
+	}
+	.off-canvas a {
+		color: #FFF;
+	}
+	.off-canvas li {
+		padding: 1em;
+	}
+	.mytitlesmall {
+		max-width: 70%;
+		float: left;
+	}
+	.menu-icon {
+		float: right;
+		margin-top: 25px;
+	}
+	h3 {
+		padding-top: 1em;
+		padding-bottom: 1em;
+	}
+	h1 {
+		padding-top: .5em;
+		padding-bottom: .5em;
+	}
+}
